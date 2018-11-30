@@ -184,6 +184,7 @@
         box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
         text-align: center;
         background-image: url("images/overlay.png");
+        font-family: 'Handlee', cursive;
     }
 
         #main > section.dark {
@@ -193,8 +194,15 @@
 
             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
                 color: inherit;
+                color: rgb(58, 49, 107);
             }
-
+            #main p {
+                color: rgb(122, 202, 255);
+                font-weight: bold;
+            }
+           #main h2 {
+               font-family: 'Satisfy', cursive;
+            }
             #main > section.dark strong {
                 color: #fff;
                 border-color: inherit;
@@ -217,7 +225,7 @@
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            background-image: url("../../images/mountains.jpg");
         }
 
         #main > section.two {
