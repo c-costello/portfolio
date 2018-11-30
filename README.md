@@ -9,3 +9,13 @@ Start time: 12:16
 Finish time: 12:44
 
 Actual time needed to complete: 30 min
+
+Number and name of feature: feature 2 modify contents
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 12:45
+
+Finish time: _____
+
+Actual time needed to complete: _____
