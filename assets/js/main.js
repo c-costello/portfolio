@@ -121,3 +121,6 @@
 				});
 
 })(jQuery);
+
+$('.carousel').carousel()
+
