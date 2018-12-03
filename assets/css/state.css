@@ -118,6 +118,32 @@
 }
 
 @media screen and (max-width: 960px) {
+        /* Header */
+
+        #header {
+            width: 20%;
+        }
+
+        #logo .image {
+            position: relative;
+            margin: 0 0 0.5em 0;
+        }
+
+        #nav ul li a {
+            font-size: 0.8em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+            #nav ul li a span {
+                padding-right: 2.25em;
+            }
+
+                #nav ul li a span:before {
+                    left: 100%;
+                    margin-left: -1.25em;
+                    line-height: 2.25em;
+                }
 
     /* Basic */
 
@@ -152,6 +178,58 @@
 
     /* Header */
 
+       
+
+    /* Footer */
+
+        #footer {
+            margin-left: 0;
+        }
+
+    /* Main */
+
+        #main {
+            -moz-backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-transition: -moz-transform 0.5s ease;
+            -webkit-transition: -webkit-transform 0.5s ease;
+            -ms-transition: -ms-transform 0.5s ease;
+            transition: transform 0.5s ease;
+            padding-bottom: 1px;
+            margin-left: 0;
+        }
+
+            #main > section {
+                padding: 3em 0;
+            }
+
+            #main section.cover {
+                padding: 4em 0;
+            }
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 736px) {
+
+    /* Basic */
+
+        body, input, textarea, select {
+            font-size: 14pt;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            letter-spacing: 0;
+            font-weight: 300;
+        }
+
+        .container {
+            padding: 0 15px 0 15px;
+        }
         #header {
             -moz-backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
@@ -269,57 +347,6 @@
             -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
             transform: translateX(0);
-        }
-
-    /* Footer */
-
-        #footer {
-            margin-left: 0;
-        }
-
-    /* Main */
-
-        #main {
-            -moz-backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
-            -ms-backface-visibility: hidden;
-            backface-visibility: hidden;
-            -moz-transition: -moz-transform 0.5s ease;
-            -webkit-transition: -webkit-transform 0.5s ease;
-            -ms-transition: -ms-transform 0.5s ease;
-            transition: transform 0.5s ease;
-            padding-bottom: 1px;
-            margin-left: 0;
-        }
-
-            #main > section {
-                padding: 3em 0;
-            }
-
-            #main section.cover {
-                padding: 4em 0;
-            }
-
-}
-
-/* Mobile */
-
-@media screen and (max-width: 736px) {
-
-    /* Basic */
-
-        body, input, textarea, select {
-            font-size: 14pt;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            letter-spacing: 0;
-            font-weight: 300;
-        }
-
-        .container {
-            padding: 0 15px 0 15px;
         }
 
     /* List */
