@@ -18,3 +18,12 @@ Start time: 12:45
 
 Finish time: 1:39
 Actual time needed to complete: about an hour
+--
+Number and name of feature: Day 2
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 11:15
+
+Finish time: 
+Actual time needed to complete: 
